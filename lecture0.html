@@ -24,12 +24,19 @@
 	</style>
 </head>
 <body>
-	<div id="name">
-		<h2 id="Paris">
-			Paris
-		</h2>
-		<p id="p1">
-			is the city in France. Nice hello
-		</p>
-	</div>
+	<form>
+		<div>
+			<input type="text" name="name" placeholder="name">
+			<input type="password" name="password" placeholder="password">
+		</div>
+		<div>
+			<input name="country" list="countries">
+			<datalist id="countries">
+				<option value="VietNam">
+				</option>
+				<option value="china">
+				</option>
+			</datalist>
+		</div>
+	</form>
 </body>
